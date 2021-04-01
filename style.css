@@ -17,7 +17,7 @@ body{
 }
 a{
     text-decoration: none;
-    color: #fff !important;
+  
 }
 header{
     min-height: 50vh !important;
@@ -605,7 +605,32 @@ header .imgs-box .lan{
         left: 0;
     }
 }
+.events h3{
+    text-align: center;
+    color: #1e1e1e;
+    margin: 20px;
+}
 
+ #calendar{
+    margin: auto;
+     width: 80%;
+     max-height: 90vh;
+ 
+}
+@media(max-width:400px) {
+     #calendar{
+  font-size: xx-small !important;
+ 
+}
+
+@media(max-width:260px) {
+     #calendar{
+  font-size: smaller !important;
+ 
+}
+    
+    
+}
 .contact .left{
     background-color: #1e1e1e;
     color: #ffff;
