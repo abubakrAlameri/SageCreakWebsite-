@@ -1,0 +1,222 @@
+*{
+    padding: 0;
+    margin: 0;
+ 
+    font-family: Gentium Basic;
+}
+body{
+    overflow-x: hidden;
+}
+
+button:focus{
+    outline: none !important;
+}
+header{
+    min-height: 60vh;
+
+}
+header .img-banner{
+    height:300px;
+    width: 100%;
+  
+}
+header div h2{
+    position: relative;
+    top: -20px;
+    background-color: #1e1e1e;
+    color: #fff;
+}
+header div ul{
+    list-style: none;
+    min-height: 50px !important;
+}
+header div ul li a{
+    display: inline-block;
+    padding: 5px 10px;
+    color: #555 !important;
+    border-radius: 3px;
+   transition: 0.5s linear;
+    text-decoration: none !important;
+}
+header div ul li a:hover{
+   border-bottom: 1px solid  !important;
+
+}
+header div ul li a.active{
+     color: #1e1e1e !important;
+}
+
+.page-body{
+    width: 60%;
+    margin: auto;
+    border-top: 1px solid #999;
+    border-bottom: 1px solid #999;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 10px;
+}
+@media (max-width:600px) {
+    
+    .page-body{
+        width: 100%;
+        margin: 5px;
+        font-size: smaller;
+    
+    }
+    header .img-banner{
+        max-height:300px !important;
+    
+    
+    }
+    header div h2{
+    position: relative;
+    top: -20px;
+    background-color: #1e1e1e;
+    color: #fff;
+}
+    
+}
+.volunteer,
+.membership,
+.prom,
+.home {
+    display: none;
+}
+
+.page-body .home h3{
+    padding: 20px;
+    background-color: #1e1e1e;
+    color: #fff;
+    text-align: center;
+}
+
+.page-body .home>p{
+    text-align: center;
+    padding: 30px;
+    font-size: 1.5em;
+    font-weight: 700;
+    line-height: 35px;
+    border-bottom: 1px solid #999;
+}
+
+
+.membership h3{
+    font-size: 1.7em;
+    font-weight: 700;
+    color: #1e1e1e;
+
+
+}
+.membership p{
+    color: #999;
+    line-height: 35px;
+}
+.membership article h4{
+     font-size: 1.7em;
+    font-weight: 700;
+    color: #1e1e1e;
+
+}
+
+.membership article p a{
+    color: #1e1e1e;
+    font-weight: 600;
+    text-decoration: none;
+}
+#form2 input[type="submit"],
+#form1 input[type="submit"],
+#form input[type="submit"]{
+    margin: 20px 0;
+}
+#form2 input[type="submit"],
+#form1 input[type="submit"],
+#form input[type="submit"],
+ .mybtn {
+    display: block;
+    color: #fff;
+    background-color: #1e1e1e ;
+    font-weight: 600;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+}
+#purchase{
+    height: 0;
+    overflow: hidden;
+    transition: 0.5s ease-in;
+}
+#purchase div img{
+
+}
+.show1{
+    height: unset !important;
+    
+}
+#form2 input,
+#form2 label,
+#form1 input,
+#form1 label,
+#form input,
+#form label{
+    display: block;
+}
+#form2 label,
+#form1 label,
+#form label{
+    margin: 5px;
+}
+#form2 input,
+#form1 input,
+#form input{
+    width: 100%;
+    height: 40px;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    background-color: #eee;
+    margin: 5px;
+}
+
+.show2{
+    display: block !important;
+
+}
+.prom{
+   
+    font-size: larger;
+}
+#form2 textarea,
+#form1 textarea{
+    border: 1px solid #ddd;
+    outline: none;
+    width: 100% !important;
+
+    background-color: #eee;
+    width: 30px;
+}
+
+
+footer{
+    width: 100%;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer h5 {
+    color: #999;
+    font-size: larger;
+    font-weight: 700;
+    margin: 7px;
+}
+footer a{
+    color: #1e1e1e;
+    text-decoration: none;
+    font-size: 1.2em;
+
+}

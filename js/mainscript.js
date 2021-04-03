@@ -1,4 +1,4 @@
-      fetch("events.json")
+      fetch("http:/js/events.json")
                 .then(response => response.json())
                 .then(json => {
 
